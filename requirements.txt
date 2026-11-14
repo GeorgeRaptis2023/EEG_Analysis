@@ -1,0 +1,11 @@
+# BCIAUT-P300 xDAWN+LDA Analysis Pipeline
+
+## Requirements
+numpy
+scipy
+mne
+scikit-learn
+pandas
+torch
+torchvision
+matplotlib
