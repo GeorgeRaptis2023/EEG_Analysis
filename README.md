@@ -1,11 +1,11 @@
 ## Pipeline Overview
 
-1. **Load data** (`data_loading.py`) — Loads raw EEG recordings, channel metadata, and event markers across sessions and subjects.
-2. **Preprocess** (`preprocessing.py`) — Cleans raw signals, applies filtering, extracts epochs, and rejects noisy trials.
-3. **Extract features** (`feature_extraction.py`) — Applies spatial filtering and constructs discriminative feature vectors from preprocessed epochs.
-4. **Classify** (`classification.py`) — Trains and runs the Linear Discriminant Analysis (LDA) classifier on extracted features.
-5. **Evaluate** (`evaluation.py`) — Computes classification performance metrics across trials, sessions, and subjects.
-6. **Visualize** (`visualization.py`) — Generates ERP waveform plots, spatial filter topographies, and classification performance figures.
+1. **Load data** (`data_loading.py`) 
+2. **Preprocess** (`preprocessing.py`)
+3. **Extract features** (`feature_extraction.py`)
+4. **Classify** (`classification.py`) 
+5. **Evaluate** (`evaluation.py`)
+6. **Visualize** (`visualization.py`)
 
 ## Implemented Components
 
